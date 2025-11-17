@@ -1,0 +1,14 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"leet2code3\"",
+                    10
+                ]
+            },
+            "expected_output": "t"
+        }
+    ]
+}

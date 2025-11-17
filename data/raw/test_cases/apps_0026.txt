@@ -1,0 +1,11 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": "3\n1 3\n100000 100000\n2 2\n"
+            },
+            "expected_output": "YES\nNO\nYES\n"
+        }
+    ]
+}

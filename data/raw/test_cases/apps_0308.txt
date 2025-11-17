@@ -1,0 +1,13 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"<DIV>This is the first line <![CDATA[<div>]]></DIV>\""
+                ]
+            },
+            "expected_output": false
+        }
+    ]
+}

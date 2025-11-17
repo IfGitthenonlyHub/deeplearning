@@ -1,0 +1,19 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"abpcplea\"",
+                    [
+                        "\"ale\"",
+                        "\"apple\"",
+                        "\"monkey\"",
+                        "\"plea\""
+                    ]
+                ]
+            },
+            "expected_output": "\"apple\""
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": "5\nababa\ncodedoca\nabcda\nzxzytyz\nabcdefghijklmnopqrstuvwxyza\n"
+            },
+            "expected_output": "YES\nbacdefghijklmnopqrstuvwxyz\nYES\nedocabfghijklmnpqrstuvwxyz\nNO\nYES\nxzytabcdefghijklmnopqrsuvw\nNO\n"
+        }
+    ]
+}

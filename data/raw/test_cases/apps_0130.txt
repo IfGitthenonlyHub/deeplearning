@@ -1,0 +1,14 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"1000\"",
+                    10000
+                ]
+            },
+            "expected_output": 4
+        }
+    ]
+}

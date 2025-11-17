@@ -1,0 +1,11 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": "3\nRRRR\nRSP\nS\n"
+            },
+            "expected_output": "PPPP\nPPP\nR\n"
+        }
+    ]
+}

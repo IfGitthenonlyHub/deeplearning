@@ -1,0 +1,24 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    [
+                        100,
+                        -23,
+                        -23,
+                        404,
+                        100,
+                        23,
+                        23,
+                        23,
+                        3,
+                        404
+                    ]
+                ]
+            },
+            "expected_output": 3
+        }
+    ]
+}

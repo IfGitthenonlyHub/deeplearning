@@ -1,0 +1,14 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"1807\"",
+                    "\"7810\""
+                ]
+            },
+            "expected_output": "3A3B"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "3",
+                    "abc",
+                    "abc",
+                    "a",
+                    "b",
+                    "abba",
+                    "baab"
+                ]
+            },
+            "expected_output": [
+                "Yes",
+                "No",
+                "Yes"
+            ]
+        }
+    ]
+}

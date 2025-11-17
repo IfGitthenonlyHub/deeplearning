@@ -1,0 +1,15 @@
+import sys, io, base64
+
+def solve(input_str: str) -> str:
+  old_stdin, old_stdout = sys.stdin, sys.stdout
+  try:
+    sys.stdin = io.StringIO(input_str)
+    buf = io.StringIO()
+    sys.stdout = buf
+    code = base64.b64decode("bSA9IGludChpbnB1dCgpKQpmb3IgaWkgaW4gcmFuZ2UobSk6CiAgICBuLCBULCBhLCBiID0gbGlzdChtYXAoaW50LCBpbnB1dCgpLnNwbGl0KCkpKQogICAgc2NvcmUgPSBbYSxiXQogICAgZCA9IGxpc3QobWFwKGludCwgaW5wdXQoKS5zcGxpdCgpKSkKICAgIHQgPSBsaXN0KG1hcChpbnQsIGlucHV0KCkuc3BsaXQoKSkpCiAgICBlYXN5ID0gMAogICAgZm9yIGQxIGluIGQ6CiAgICAgICAgaWYgZDEgPT0gMDoKICAgICAgICAgICAgZWFzeSArPSAxCiAgICBkaWZmID0gbGlzdCh6aXAodCxkKSkKICAgIGRpZmYgPSBzb3J0ZWQoZGlmZikgIyBmcm9tIGxlYXN0IHRvIGdyZWF0ZXN0CiAgICBjbnQgPSAwCiAgICBjdXIgPSAwCiAgICBhbnMgPSAwCiAgICBmb3IgaSBpbiByYW5nZShuKToKICAgICAgICB0LGQgPSBkaWZmW2ldCiAgICAgICAgIyBwcmludCgnLS0tLScsaSwgY3VyLCBjbnQpCiAgICAgICAgaWYgY3VyIDwgdCBhbmQgY3VyIDw9IFQ6CiAgICAgICAgICAgICMgY2FuIGxlYXZlCiAgICAgICAgICAgIGFucyA9IG1heChjbnQsIGFucykKICAgICAgICAgICAgIyB0cnkgZWFzeSBwcm9ibGVtcyBhcyBtdWNoIGFzIHBvc3NpYmxlCiAgICAgICAgICAgIHRtcCA9ICh0IC0gMSAtIGN1cikgLy8gYQogICAgICAgICAgICB0bXAgPSBtaW4odG1wLCBlYXN5KQogICAgICAgICAgICBhbnMgPSBtYXgoYW5zLCBjbnQgKyB0bXApCgogICAgICAgICMgZm9yY2UgdGhpcyBvbmUKICAgICAgICBjbnQgKz0gMQogICAgICAgIGN1ciArPSBzY29yZVtkXQogICAgICAgIGlmIGQ9PTA6CiAgICAgICAgICAgIGVhc3kgLT0gMQogICAgaWYgY3VyIDw9IFQ6CiAgICAgICAgYW5zID0gbWF4KGNudCwgYW5zKQoKICAgIHByaW50KGFucyk=").decode("utf-8", "replace")
+    # Execute as if it were a script run as __main__
+    glb = {"__name__": "__main__"}
+    exec(code, glb)
+    return buf.getvalue()
+  finally:
+    sys.stdin, sys.stdout = old_stdin, old_stdout

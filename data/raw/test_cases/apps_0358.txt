@@ -1,0 +1,25 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"abcd\"",
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        "\"a\"",
+                        " \"cd\""
+                    ],
+                    [
+                        "\"eee\"",
+                        " \"ffff\""
+                    ]
+                ]
+            },
+            "expected_output": "\"abcd\""
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    [
+                        "\"A\"",
+                        "\"A\"",
+                        "\"A\"",
+                        "\"B\"",
+                        "\"B\"",
+                        "\"B\""
+                    ],
+                    2
+                ]
+            },
+            "expected_output": 8
+        }
+    ]
+}

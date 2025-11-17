@@ -1,0 +1,19 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "act",
+                    "2",
+                    "cat",
+                    "dog"
+                ]
+            },
+            "expected_output": [
+                "Yes",
+                "No"
+            ]
+        }
+    ]
+}

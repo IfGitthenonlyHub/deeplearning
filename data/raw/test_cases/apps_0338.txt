@@ -1,0 +1,16 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    2,
+                    "\"aa\"",
+                    "\"da\"",
+                    "\"b\""
+                ]
+            },
+            "expected_output": 4
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "2",
+                    "100 180 200 20 60",
+                    "130 131 132 1 72",
+                    "",
+                    ""
+                ]
+            },
+            "expected_output": [
+                "SEBI",
+                "FATHER"
+            ]
+        }
+    ]
+}

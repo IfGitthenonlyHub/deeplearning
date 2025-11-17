@@ -1,0 +1,16 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"acb\"",
+                    4,
+                    "\"ab\"",
+                    2
+                ]
+            },
+            "expected_output": 2
+        }
+    ]
+}

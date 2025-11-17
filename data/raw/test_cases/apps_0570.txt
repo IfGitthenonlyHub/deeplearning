@@ -1,0 +1,18 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "2",
+                    "karp",
+                    "abcd"
+                ]
+            },
+            "expected_output": [
+                "22",
+                "24"
+            ]
+        }
+    ]
+}

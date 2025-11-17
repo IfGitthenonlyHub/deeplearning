@@ -1,0 +1,22 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"hit\"",
+                    "\"cog\"",
+                    [
+                        "\"hot\"",
+                        "\"dot\"",
+                        "\"dog\"",
+                        "\"lot\"",
+                        "\"log\"",
+                        "\"cog\""
+                    ]
+                ]
+            },
+            "expected_output": 5
+        }
+    ]
+}

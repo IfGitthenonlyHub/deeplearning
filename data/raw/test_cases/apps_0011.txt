@@ -1,0 +1,11 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": "3\nDSAWWAW\nD\nWA\n"
+            },
+            "expected_output": "8\n2\n4\n"
+        }
+    ]
+}

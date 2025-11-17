@@ -1,0 +1,13 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\".L.R...LR..L..\""
+                ]
+            },
+            "expected_output": "LLL.RR.LLRRLL..."
+        }
+    ]
+}

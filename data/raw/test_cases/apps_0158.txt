@@ -1,0 +1,14 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"ab\"",
+                    "\"ba\""
+                ]
+            },
+            "expected_output": 1
+        }
+    ]
+}

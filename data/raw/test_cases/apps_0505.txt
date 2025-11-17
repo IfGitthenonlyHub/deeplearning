@@ -1,0 +1,13 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"lee(t(c)o)de)\""
+                ]
+            },
+            "expected_output": "\"lee(t(c)o)de\""
+        }
+    ]
+}

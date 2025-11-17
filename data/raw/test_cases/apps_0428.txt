@@ -1,0 +1,17 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    [
+                        "\"@.a.#\"",
+                        "\"###.#\"",
+                        "\"b.A.B\""
+                    ]
+                ]
+            },
+            "expected_output": 8
+        }
+    ]
+}

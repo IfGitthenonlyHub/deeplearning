@@ -1,0 +1,11 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": "4\n0110\n0101\n00001000\n0001000\n"
+            },
+            "expected_output": "4\n3\n4\n3\n"
+        }
+    ]
+}

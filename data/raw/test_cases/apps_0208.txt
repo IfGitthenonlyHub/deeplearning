@@ -1,0 +1,13 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"RD\""
+                ]
+            },
+            "expected_output": "Dire"
+        }
+    ]
+}

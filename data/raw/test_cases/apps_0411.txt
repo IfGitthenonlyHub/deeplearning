@@ -1,0 +1,17 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"leetcode\"",
+                    [
+                        "\"leet\"",
+                        "\"code\""
+                    ]
+                ]
+            },
+            "expected_output": false
+        }
+    ]
+}

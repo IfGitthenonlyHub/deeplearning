@@ -1,0 +1,20 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "2",
+                    "4 9",
+                    "5 2 2 4",
+                    "4 9",
+                    "5 2 18 3"
+                ]
+            },
+            "expected_output": [
+                "YES",
+                "NO"
+            ]
+        }
+    ]
+}

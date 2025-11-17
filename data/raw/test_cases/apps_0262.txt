@@ -1,0 +1,17 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    [
+                        "\"SEND\"",
+                        "\"MORE\""
+                    ],
+                    "\"MONEY\""
+                ]
+            },
+            "expected_output": false
+        }
+    ]
+}

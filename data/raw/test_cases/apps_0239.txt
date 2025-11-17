@@ -1,0 +1,28 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    [
+                        5,
+                        4,
+                        3,
+                        2,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        2,
+                        2,
+                        3
+                    ],
+                    3,
+                    1
+                ]
+            },
+            "expected_output": 9
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    0
+                ]
+            },
+            "expected_output": 0
+        }
+    ]
+}

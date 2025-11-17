@@ -1,0 +1,14 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"0.(52)\"",
+                    "\"0.5(25)\""
+                ]
+            },
+            "expected_output": true
+        }
+    ]
+}

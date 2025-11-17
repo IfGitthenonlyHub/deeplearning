@@ -1,0 +1,22 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "4",
+                    "likecs",
+                    "venivedivici",
+                    "bhuvan",
+                    "codechef"
+                ]
+            },
+            "expected_output": [
+                "no",
+                "yes",
+                "no",
+                "yes"
+            ]
+        }
+    ]
+}

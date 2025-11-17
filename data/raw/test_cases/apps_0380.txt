@@ -1,0 +1,13 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"172.16.254.1\""
+                ]
+            },
+            "expected_output": "Neither"
+        }
+    ]
+}

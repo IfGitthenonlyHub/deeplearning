@@ -1,0 +1,14 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"aaabcccd\"",
+                    2
+                ]
+            },
+            "expected_output": 6
+        }
+    ]
+}

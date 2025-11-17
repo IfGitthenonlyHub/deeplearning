@@ -1,0 +1,15 @@
+import sys, io, base64
+
+def solve(input_str: str) -> str:
+  old_stdin, old_stdout = sys.stdin, sys.stdout
+  try:
+    sys.stdin = io.StringIO(input_str)
+    buf = io.StringIO()
+    sys.stdout = buf
+    code = base64.b64decode("Y2xhc3MgU29sdXRpb246CiAgICAgZGVmIG51bWJlclRvV29yZHMoc2VsZiwgbnVtKToKICAgICAgICAgcmV0dXJuICcgJy5qb2luKHNlbGYud29yZHMobnVtKSkgb3IgJ1plcm8nCiAgICAgICAgIAogICAgICAgICAKICAgICBkZWYgd29yZHMoc2VsZiwgbik6CiAgICAgICAgIHByaW50KG4pCiAgICAgICAgIHRvMTkgPSBbJ09uZScsICdUd28nLCAnVGhyZWUnLCAnRm91cicsICdGaXZlJywgJ1NpeCcsICdTZXZlbicsICdFaWdodCcsICdOaW5lJywgJ1RlbicsICdFbGV2ZW4nLCAnVHdlbHZlJywgJ1RoaXJ0ZWVuJywgJ0ZvdXJ0ZWVuJywgJ0ZpZnRlZW4nLCAnU2l4dGVlbicsICdTZXZlbnRlZW4nLCAnRWlnaHRlZW4nLCAnTmluZXRlZW4nXQogICAgICAgICB0ZW5zID0gWydUd2VudHknLCAnVGhpcnR5JywgJ0ZvcnR5JywgJ0ZpZnR5JywgJ1NpeHR5JywgJ1NldmVudHknLCAnRWlnaHR5JywgJ05pbmV0eScsXQogICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgIGlmIG4gPCAyMDoKICAgICAgICAgICAgIHJldHVybiB0bzE5W24gLSAxOiBuXQogICAgICAgICBpZiBuIDwgMTAwOgogICAgICAgICAgICAgcmV0dXJuIFt0ZW5zW24vLzEwIC0gMl1dICsgc2VsZi53b3JkcyhuJTEwKQogICAgICAgICBpZiBuIDwgMTAwMDoKICAgICAgICAgICAgIHJldHVybiBbdG8xOVtuLy8xMDAgLSAxXV0gKyBbJ0h1bmRyZWQnXSArIHNlbGYud29yZHMobiUxMDApCiAgICAgICAgICAgICAKICAgICAgICAgZm9yIHAsIHcgaW4gZW51bWVyYXRlKCgnVGhvdXNhbmQnLCAnTWlsbGlvbicsICdCaWxsaW9uJyksIDEpOgogICAgICAgICAgICAgaWYgbiA8IDEwMDAqKihwICsgMSk6CiAgICAgICAgICAgICAgICAgcmV0dXJuIHNlbGYud29yZHMobi8vMTAwMCoqcCkgICsgW3ddICsgc2VsZi53b3JkcyhuJTEwMDAqKnApCiAgICAgICAgIAogICAgICAgICAiIiIKICAgICAgICAgOnR5cGUgbnVtOiBpbnQKICAgICAgICAgOnJ0eXBlOiBzdHIKICAgICAgICAgIiIi").decode("utf-8", "replace")
+    # Execute as if it were a script run as __main__
+    glb = {"__name__": "__main__"}
+    exec(code, glb)
+    return buf.getvalue()
+  finally:
+    sys.stdin, sys.stdout = old_stdin, old_stdout

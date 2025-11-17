@@ -1,0 +1,11 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": "5\nNNN\nNS\nWWEN\nWWEE\nNWNWS\n"
+            },
+            "expected_output": "15\n6\n16\n12\n25\n"
+        }
+    ]
+}

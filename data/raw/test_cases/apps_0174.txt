@@ -1,0 +1,13 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"dir\\n\\tsubdir1\\n\\tsubdir2\\n\\t\\tfile.ext\""
+                ]
+            },
+            "expected_output": 41
+        }
+    ]
+}

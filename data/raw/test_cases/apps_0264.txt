@@ -1,0 +1,17 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    [
+                        "\"un\"",
+                        "\"iq\"",
+                        "\"ue\""
+                    ]
+                ]
+            },
+            "expected_output": 0
+        }
+    ]
+}

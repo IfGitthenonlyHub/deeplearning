@@ -1,0 +1,18 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    [
+                        1000,
+                        100,
+                        10,
+                        2
+                    ]
+                ]
+            },
+            "expected_output": "1000/(100/10/2)"
+        }
+    ]
+}

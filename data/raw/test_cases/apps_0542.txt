@@ -1,0 +1,31 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "3",
+                    "2 2",
+                    "aa",
+                    "aA",
+                    "3 3",
+                    "aba",
+                    "bab",
+                    "aba",
+                    "4 4",
+                    "aabb",
+                    "aabb",
+                    "bbaa",
+                    "bbaa",
+                    "",
+                    ""
+                ]
+            },
+            "expected_output": [
+                "0",
+                "1",
+                "4"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": "3\nAZAMON APPLE\nAZAMON AAAAAAAAAAALIBABA\nAPPLE BANANA\n"
+            },
+            "expected_output": "AAZMON\n---\nAEPLP\n"
+        }
+    ]
+}

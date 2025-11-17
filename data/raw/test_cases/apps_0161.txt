@@ -1,0 +1,13 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"9,3,4,#,#,1,#,#,2,#,6,#,#\""
+                ]
+            },
+            "expected_output": false
+        }
+    ]
+}

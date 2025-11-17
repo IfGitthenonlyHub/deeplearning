@@ -1,0 +1,11 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": "3\nxabb\naabx\ntechnocup\ntechnocup\na\nz\n"
+            },
+            "expected_output": "YES\nYES\nNO\n"
+        }
+    ]
+}

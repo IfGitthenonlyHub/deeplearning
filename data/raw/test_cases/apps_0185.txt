@@ -1,0 +1,14 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    "\"00110110\"",
+                    2
+                ]
+            },
+            "expected_output": true
+        }
+    ]
+}

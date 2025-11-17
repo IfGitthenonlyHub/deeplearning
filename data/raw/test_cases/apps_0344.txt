@@ -1,0 +1,16 @@
+{
+    "function_name": "solve",
+    "test_cases": [
+        {
+            "parameters": {
+                "input_str": [
+                    [
+                        "\"babca\"",
+                        "\"bbazb\""
+                    ]
+                ]
+            },
+            "expected_output": 4
+        }
+    ]
+}
